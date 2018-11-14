@@ -1,6 +1,6 @@
 program HelloWorld;
 
-  function MAIUSC (var S: string): integer;
+  function branco (var S: string): integer;
   var
   I, TAM,esp: integer;
   begin
@@ -12,7 +12,7 @@ program HelloWorld;
       else
       writeln('nao identifiquei espaço' );
     end;
-    MAIUSC:= esp;
+    branco:= esp;
   end;
 
 var
@@ -20,6 +20,6 @@ n:integer;
 s:string;
 begin
   readln(s);
-  n:= MAIUSC(s);
+  n:= branco(s);
   writeln(n);
 end.
