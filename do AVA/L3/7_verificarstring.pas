@@ -1,6 +1,6 @@
-Pprogram HelloWorld;
+program HelloWorld;
 
-  procedure MAIUSC (var S: string);
+  function MAIUSC (var S: string): integer;
   var
   I, TAM,esp: integer;
   begin
@@ -10,14 +10,16 @@ Pprogram HelloWorld;
       if(S[I] = ' ')then
       esp:= esp + 1
       else
-      writeln('nao identifiquei espaço' )
+      writeln('nao identifiquei espaÃ§o' );
     end;
-    writeln(esp);
+    MAIUSC:= esp;
   end;
 
 var
+n:integer;
 s:string;
 begin
   readln(s);
-  MAIUSC(s);
+  n:= MAIUSC(s);
+  writeln(n);
 end.
