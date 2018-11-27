@@ -1,0 +1,18 @@
+Nome: fulano
+Matricula: 1231231
+Media: 8.00
+Nota final: 8
+Numero de faltas: 16
+==========================
+Nome: cicrano
+Matricula: 1231241
+Media: 8.00
+Nota final: 8
+Numero de faltas: 10
+==========================
+Nome: cincincin
+Matricula: 12121231
+Media: 1.00
+Nota final: 1
+Numero de faltas: 4
+==========================
